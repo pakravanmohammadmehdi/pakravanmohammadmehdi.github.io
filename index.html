@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="no-transitions">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mohammad Mehdi Pakravan – Economics Portfolio</title>
+    <meta name="description" content="M.Sc. in Economics (Sharif University of Technology). Research in corporate governance, board networks, and applied econometrics." />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- Set initial theme BEFORE styles load to avoid flash -->
+     <script>
+  (() => {
+    try {
+      const t = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (t === 'dark' || (!t && prefersDark)) document.documentElement.classList.add('dark');
+    } catch {}
+  })();
+</script>
+    <script>
+      (() => {
+        try {
+          const t = localStorage.getItem('theme');
+          const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (t === 'dark' || (!t && prefersDark)) document.documentElement.classList.add('dark');
+        } catch {}
+      })();
+    </script>
+  </head>
+  <body>
+    <a href="#home" class="sr-only focus:not-sr-only">Skip to content</a>
+    <div id="root"></div>
+    <noscript>This site works best with JavaScript enabled.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

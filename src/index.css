@@ -1,0 +1,51 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100;
+  }
+}
+
+/* Utility to prevent first-frame animation; we remove this class in JS after mount */
+@layer utilities {
+  .no-transitions * { transition: none !important; }
+}
+
+/* Opt-in transitions (examples) */
+.btn-transition { @apply transition-colors duration-300; }
+.card-transition { @apply transition-shadow duration-300; }
+
+/* --- Modern background pattern (subtle, academic) --- */
+.bg-pattern {
+  background-image:
+    radial-gradient(1200px 600px at 10% -10%, rgba(56, 189, 248, 0.25), transparent 40%),
+    radial-gradient(900px 500px at 90% 0%, rgba(16, 185, 129, 0.22), transparent 45%),
+    radial-gradient(1000px 700px at 50% 110%, rgba(99, 102, 241, 0.15), transparent 50%);
+  filter: saturate(1.05);
+}
+
+/* Gentle float for any decorative chips/badges (optional) */
+@keyframes float-slow {
+  0%   { transform: translateY(0) }
+  50%  { transform: translateY(-6px) }
+  100% { transform: translateY(0) }
+}
+.animate-float-slow { animation: float-slow 6s ease-in-out infinite; }
+/* Enable smooth color transitions ONLY while toggling theme */
+.theme-animating * {
+  transition:
+    background-color .35s ease,
+    color .35s ease,
+    border-color .35s ease,
+    fill .35s ease,
+    stroke .35s ease;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .theme-animating * { transition: none !important; }
+}
+@keyframes spin-slow { to { transform: rotate(360deg) } }
+.animate-spin-slow { animation: spin-slow 1.2s linear infinite; }
