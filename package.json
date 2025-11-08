@@ -10,6 +10,7 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
+    "framer-motion": "^12.23.24",
     "lucide-react": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
