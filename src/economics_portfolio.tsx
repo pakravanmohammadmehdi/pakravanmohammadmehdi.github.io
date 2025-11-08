@@ -724,7 +724,7 @@ const LoaderOverlay: React.FC<{ progress: number }> = ({ progress }) => (
             <div className="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-white/90 dark:bg-slate-900/80">
               <h3 className="font-semibold mb-3">Download CV</h3>
               <a
-                href="/assets/cv-1.pdf"
+                href="./assets/cv-1.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-lg hover:opacity-90"
