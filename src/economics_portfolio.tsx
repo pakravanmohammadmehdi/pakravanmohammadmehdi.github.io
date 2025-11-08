@@ -499,7 +499,7 @@ const LoaderOverlay: React.FC<{ progress: number }> = ({ progress }) => (
                   <Mail className="w-4 h-4" />
                   Email Me
                 </a>
-                <a href="#" className="inline-flex items-center gap-2 rounded-xl border border-slate-300 dark:border-slate-700 px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-800">
+                <a href="/assets/cv-1.pdf" className="inline-flex items-center gap-2 rounded-xl border border-slate-300 dark:border-slate-700 px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-800">
                   <Download className="w-4 h-4" />
                   Download CV
                 </a>
