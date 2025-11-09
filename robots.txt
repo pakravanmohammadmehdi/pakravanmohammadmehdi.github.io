@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mohapak.github.io/sitemap.xml
