@@ -451,6 +451,17 @@ const LoaderOverlay: React.FC<{ progress: number }> = ({ progress }) => (
 );
 
   return (
+      <>
+      {/* Structured Data - Hidden but crawlable */}
+    <div style={{ display: 'none' }}>
+      <h1>Mohammad Mehdi Pakravan - Economist and Researcher</h1>
+      <h2>M.Sc. Economics from Sharif University of Technology</h2>
+      <p>Research focus: Corporate Governance, Board of Directors Networks,Industrial Organization, Network Analysis, Applied Econometrics, Tehran Stock Exchange, Emerging Markets</p>
+      <p>Contact: pakravanmohammad.eco@gmail.com</p>
+      <p>Location: Isfahan, Iran</p>
+      <p>Education: Master of Science in Economics, Sharif University of Technology, Bachelor of Science in Electrical Engineering(Control), Isfahan University of Technology</p>
+      <p>Research Assistant and Teaching Assistant at Sharif University of Technology</p>
+    </div>
     <div className="min-h-screen">
       {/* FX layers */}
       <BackgroundFX />
@@ -802,6 +813,7 @@ const LoaderOverlay: React.FC<{ progress: number }> = ({ progress }) => (
       </AnimatePresence>
       </div>
     </div>
+    </>
   );
 };
 
