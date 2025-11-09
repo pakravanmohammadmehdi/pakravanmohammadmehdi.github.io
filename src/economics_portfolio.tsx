@@ -761,7 +761,7 @@ const LoaderOverlay: React.FC<{ progress: number }> = ({ progress }) => (
                   <Linkedin className="w-4 h-4" />
                   LinkedIn
                 </a>
-                <a href="https://github.com/pakravanmohammadmehdi" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-xl border border-slate-300 dark:border-slate-700 px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-800">
+                <a href="https://github.com/mohapak" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-xl border border-slate-300 dark:border-slate-700 px-4 py-2 hover:bg-slate-100 dark:hover:bg-slate-800">
                   <Github className="w-4 h-4" />
                   GitHub
                 </a>
