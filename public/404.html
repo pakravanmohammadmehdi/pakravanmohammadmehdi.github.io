@@ -12,12 +12,16 @@
       --text-light: #0f172a;
       --accent: #0ea5e9;
       --border-light: #e2e8f0;
+      --card-bg: #ffffff;
+      --shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     }
     
     [data-theme="dark"] {
       --bg-light: #0f172a;
       --text-light: #f1f5f9;
       --border-light: #334155;
+      --card-bg: #1e293b;
+      --shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     }
     
     * {
@@ -75,10 +79,6 @@
       font-size: 2.5rem;
       font-weight: 700;
       margin-bottom: 1rem;
-      background: linear-gradient(to right, var(--text-light), #64748b);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
     }
     
     p {
@@ -102,12 +102,12 @@
       transition: all 0.2s ease;
       border: none;
       cursor: pointer;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: var(--shadow);
     }
     
     .btn:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 6px 12px rgba(14, 165, 233, 0.3);
       background: #0284c7;
     }
     
@@ -117,14 +117,24 @@
       right: 1.5rem;
       padding: 0.5rem;
       border-radius: 0.5rem;
-      background: rgba(255, 255, 255, 0.1);
+      background: var(--card-bg);
       border: 1px solid var(--border-light);
       cursor: pointer;
       transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
     }
     
     .theme-toggle:hover {
-      background: rgba(255, 255, 255, 0.2);
+      background: rgba(14, 165, 233, 0.1);
+    }
+    
+    .theme-toggle svg {
+      width: 20px;
+      height: 20px;
     }
     
     footer {
@@ -136,20 +146,27 @@
       width: 100%;
       margin-top: auto;
     }
+    
+    @media (max-width: 640px) {
+      .container {
+        padding: 1rem;
+      }
+      
+      .error-code {
+        font-size: 4rem;
+      }
+      
+      h1 {
+        font-size: 2rem;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="bg-pattern"></div>
   
   <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M12 3a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-1.5 0V3.75A.75.75 0 0 1 12 3z"></path>
-      <path d="M19.03 5.61a.75.75 0 0 1 .75-.32v-.75a.75.75 0 0 1 1.5 0v.75a.75.75 0 0 1-.32.63A9.007 9.007 0 0 1 21 12a.75.75 0 0 1-1.5 0c0-2.25-.57-4.38-1.59-6.25a.75.75 0 0 1 .12-.84z"></path>
-      <path d="M20.25 15.5a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1 0-1.5h.75a.75.75 0 0 1 .75.75z"></path>
-      <path d="M3.61 19.03a.75.75 0 0 1-.32.12H2.54A.75.75 0 0 1 1.79 18a.75.75 0 0 1 .85-.68A9.01 9.01 0 0 1 12 21a.75.75 0 0 1 0 1.5A10.503 10.503 0 0 1 1.34 11.83a.75.75 0 0 1 .68-.85h.75a.75.75 0 0 1 .32.12A8.991 8.991 0 0 0 4.59 18a.75.75 0 0 1-.98.43z"></path>
-      <path d="M8.5 20.25a.75.75 0 0 1-.75-.75v-.75a.75.75 0 0 1 1.5 0v.75a.75.75 0 0 1-.75.75z"></path>
-      <path d="M12 14.25a6.75 6.75 0 1 1 0-13.5 6.75 6.75 0 0 1 0 13.5z"></path>
-    </svg>
+    <!-- SVG icon will be inserted by JavaScript -->
   </button>
   
   <div class="container">
@@ -177,31 +194,84 @@
     const themeToggle = document.getElementById('theme-toggle');
     const htmlElement = document.documentElement;
     
-    // Check for saved theme preference or respect OS preference
-    const currentTheme = localStorage.getItem('theme') || 
-                         (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    // Set current theme
+    const getCurrentTheme = () => {
+      const storedTheme = localStorage.getItem('theme');
+      if (storedTheme) return storedTheme;
+      
+      // Use system preference if no stored preference
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    };
     
+    // Initialize theme
+    const currentTheme = getCurrentTheme();
     if (currentTheme === 'dark') {
       htmlElement.classList.add('dark');
+      htmlElement.setAttribute('data-theme', 'dark');
+    } else {
+      htmlElement.setAttribute('data-theme', 'light');
     }
+    
+    // Set initial icon
+    const setThemeIcon = (theme) => {
+      if (theme === 'dark') {
+        themeToggle.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-1.5 0V3.75A.75.75 0 0 1 12 3z"></path>
+            <path d="M19.03 5.61a.75.75 0 0 1 .75-.32v-.75a.75.75 0 0 1 1.5 0v.75a.75.75 0 0 1-.32.63A9.007 9.007 0 0 1 21 12a.75.75 0 0 1-1.5 0c0-2.25-.57-4.38-1.59-6.25a.75.75 0 0 1 .12-.84z"></path>
+            <path d="M20.25 15.5a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1 0-1.5h.75a.75.75 0 0 1 .75.75z"></path>
+            <path d="M3.61 19.03a.75.75 0 0 1-.32.12H2.54A.75.75 0 0 1 1.79 18a.75.75 0 0 1 .85-.68A9.01 9.01 0 0 1 12 21a.75.75 0 0 1 0 1.5A10.503 10.503 0 0 1 1.34 11.83a.75.75 0 0 1 .68-.85h.75a.75.75 0 0 1 .32.12A8.991 8.991 0 0 0 4.59 18a.75.75 0 0 1-.98.43z"></path>
+            <path d="M8.5 20.25a.75.75 0 0 1-.75-.75v-.75a.75.75 0 0 1 1.5 0v.75a.75.75 0 0 1-.75.75z"></path>
+            <path d="M12 14.25a6.75 6.75 0 1 1 0-13.5 6.75 6.75 0 0 1 0 13.5z"></path>
+          </svg>
+        `;
+      } else {
+        themeToggle.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+        `;
+      }
+    };
+    
+    // Initialize icon
+    setThemeIcon(currentTheme);
     
     // Toggle theme
     themeToggle.addEventListener('click', () => {
-      htmlElement.classList.toggle('dark');
-      const newTheme = htmlElement.classList.contains('dark') ? 'dark' : 'light';
-      localStorage.setItem('theme', newTheme);
+      const currentTheme = htmlElement.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
       
-      // Update icon
-      const icon = themeToggle.querySelector('svg');
+      htmlElement.setAttribute('data-theme', newTheme);
       if (newTheme === 'dark') {
-        icon.innerHTML = `<path d="M12 3a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-1.5 0V3.75A.75.75 0 0 1 12 3z"></path>
-        <path d="M19.03 5.61a.75.75 0 0 1 .75-.32v-.75a.75.75 0 0 1 1.5 0v.75a.75.75 0 0 1-.32.63A9.007 9.007 0 0 1 21 12a.75.75 0 0 1-1.5 0c0-2.25-.57-4.38-1.59-6.25a.75.75 0 0 1 .12-.84z"></path>
-        <path d="M20.25 15.5a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1 0-1.5h.75a.75.75 0 0 1 .75.75z"></path>
-        <path d="M3.61 19.03a.75.75 0 0 1-.32.12H2.54A.75.75 0 0 1 1.79 18a.75.75 0 0 1 .85-.68A9.01 9.01 0 0 1 12 21a.75.75 0 0 1 0 1.5A10.503 10.503 0 0 1 1.34 11.83a.75.75 0 0 1 .68-.85h.75a.75.75 0 0 1 .32.12A8.991 8.991 0 0 0 4.59 18a.75.75 0 0 1-.98.43z"></path>
-        <path d="M8.5 20.25a.75.75 0 0 1-.75-.75v-.75a.75.75 0 0 1 1.5 0v.75a.75.75 0 0 1-.75.75z"></path>
-        <path d="M12 14.25a6.75 6.75 0 1 1 0-13.5 6.75 6.75 0 0 1 0 13.5z"></path>`;
+        htmlElement.classList.add('dark');
       } else {
-        icon.innerHTML = `<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>`;
+        htmlElement.classList.remove('dark');
+      }
+      
+      localStorage.setItem('theme', newTheme);
+      setThemeIcon(newTheme);
+    });
+    
+    // Watch for system theme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+      if (!localStorage.getItem('theme')) {
+        const newTheme = e.matches ? 'dark' : 'light';
+        htmlElement.setAttribute('data-theme', newTheme);
+        if (newTheme === 'dark') {
+          htmlElement.classList.add('dark');
+        } else {
+          htmlElement.classList.remove('dark');
+        }
+        setThemeIcon(newTheme);
       }
     });
   </script>

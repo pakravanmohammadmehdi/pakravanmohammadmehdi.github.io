@@ -126,10 +126,11 @@ const Modal: React.FC<ModalProps> = ({ paper, onClose }) => {
     <AnimatePresence>
       <motion.div
         className="fixed inset-0 z-50 flex items-center justify-center p-4"
+        onClick={onClose}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{ duration: 0.2 }}
+        transition={{ duration: 0.2, ease: 'easeIn' }}
       >
         {/* Backdrop */}
         <motion.div
@@ -137,17 +138,33 @@ const Modal: React.FC<ModalProps> = ({ paper, onClose }) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.2 }}
+          transition={{ duration: 0.2, ease: 'easeIn' }}
         />
 
         {/* Dialog panel */}
         <motion.div
           ref={modalRef}
           className="relative bg-white dark:bg-slate-900 rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl"
+          onClick={(e: React.MouseEvent<HTMLDivElement>) => e.stopPropagation()}
           initial={{ opacity: 0, scale: 0.95, y: 12 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          exit={{ opacity: 0, scale: 0.95, y: 12 }}
-          transition={{ duration: 0.2 }}
+          animate={{ 
+            opacity: 1, 
+            scale: 1, 
+            y: 0,
+            transition: { 
+              duration: 0.2, 
+              ease: 'easeOut' 
+            }
+          }}
+          exit={{ 
+            opacity: 0, 
+            scale: 0.95, 
+            y: 12,
+            transition: { 
+              duration: 0.2, 
+              ease: 'easeIn' 
+            }
+          }}
           role="dialog"
           aria-modal="true"
           aria-labelledby="paper-title"
@@ -511,16 +528,41 @@ const EconomicsPortfolio: React.FC = () => {
 
   return (
     <>
-      {/* Structured Data - Hidden but crawlable */}
-      <div style={{ display: 'none' }} aria-hidden="true">
-        <h1>Mohammad Mehdi Pakravan - Economist and Researcher</h1>
-        <h2>M.Sc. Economics from Sharif University of Technology</h2>
-        <p>Research focus: Corporate Governance, Board of Directors Networks, Industrial Organization, Network Analysis, Applied Econometrics, Tehran Stock Exchange, Emerging Markets</p>
-        <p>Contact: pakravanmohammad.eco@gmail.com</p>
-        <p>Location: Isfahan, Iran</p>
-        <p>Education: Master of Science in Economics, Sharif University of Technology, Bachelor of Science in Electrical Engineering(Control), Isfahan University of Technology</p>
-        <p>Research Assistant and Teaching Assistant at Sharif University of Technology</p>
-      </div>
+      {/* Structured Data - Hidden but crawlable with correct Schema.org format */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mohammad Mehdi Pakravan",
+        "url": "https://mohapak.github.io/",
+        "image": "https://mohapak.github.io/assets/images/my-pic-no.png",
+        "sameAs": [
+          "https://www.linkedin.com/in/mohammad-pakravan/",
+          "https://github.com/mohapak"
+        ],
+        "jobTitle": "Economist and Researcher",
+        "worksFor": {
+          "@type": "EducationalOrganization",
+          "name": "Sharif University of Technology"
+        },
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "Sharif University of Technology",
+            "sameAs": "https://en.wikipedia.org/wiki/Sharif_University_of_Technology"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "Isfahan University of Technology",
+            "sameAs": "https://en.wikipedia.org/wiki/Isfahan_University_of_Technology"
+          }
+        ],
+        "email": "pakravanmohammad.eco@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Isfahan",
+          "addressCountry": "Iran"
+        }
+      }) }} />
       
       <div className="min-h-screen">
         {/* FX layers */}
@@ -898,7 +940,7 @@ const EconomicsPortfolio: React.FC = () => {
             </button>
           )}
 
-          {/* Modal */}
+          {/* Modal with smooth closing animation */}
           <Modal 
             paper={selectedPaper} 
             onClose={() => setSelectedPaper(null)} 
