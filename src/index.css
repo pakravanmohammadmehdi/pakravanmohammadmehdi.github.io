@@ -5,12 +5,24 @@
 @layer base {
   html {
     @apply scroll-smooth bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100;
+    /* Prevent layout shift on theme change */
+    background-color: var(--tw-bg-opacity);
+  }
+  body {
+    @apply antialiased;
+  }
+  /* Ensure modal content is properly scrollable on mobile */
+  .modal-content {
+    -webkit-overflow-scrolling: touch;
   }
 }
 
 /* Utility to prevent first-frame animation; we remove this class in JS after mount */
 @layer utilities {
-  .no-transitions * { transition: none !important; }
+  .no-transitions * { 
+    transition: none !important; 
+    animation: none !important;
+  }
 }
 
 /* Opt-in transitions (examples) */
@@ -20,10 +32,17 @@
 /* --- Modern background pattern (subtle, academic) --- */
 .bg-pattern {
   background-image:
-    radial-gradient(1200px 600px at 10% -10%, rgba(56, 189, 248, 0.25), transparent 40%),
-    radial-gradient(900px 500px at 90% 0%, rgba(16, 185, 129, 0.22), transparent 45%),
-    radial-gradient(1000px 700px at 50% 110%, rgba(99, 102, 241, 0.15), transparent 50%);
+    radial-gradient(1200px 600px at 10% -10%, rgba(56, 189, 248, 0.10), transparent 40%),
+    radial-gradient(900px 500px at 90% 0%, rgba(16, 185, 129, 0.09), transparent 45%),
+    radial-gradient(1000px 700px at 50% 110%, rgba(99, 102, 241, 0.07), transparent 50%);
   filter: saturate(1.05);
+}
+
+/* Make background pattern more subtle on mobile */
+@media (max-width: 768px) {
+  .bg-pattern {
+    opacity: 0.7;
+  }
 }
 
 /* Gentle float for any decorative chips/badges (optional) */
@@ -33,6 +52,7 @@
   100% { transform: translateY(0) }
 }
 .animate-float-slow { animation: float-slow 6s ease-in-out infinite; }
+
 /* Enable smooth color transitions ONLY while toggling theme */
 .theme-animating * {
   transition:
@@ -45,7 +65,42 @@
 
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  .theme-animating * { transition: none !important; }
+  .theme-animating * { 
+    transition: none !important; 
+  }
+  
+  /* Disable all non-essential animations */
+  .animate-float-slow,
+  .animate-spin-slow {
+    animation: none !important;
+  }
+  
+  /* Ensure smooth scrolling still works but without animations */
+  html {
+    scroll-behavior: auto !important;
+  }
 }
-@keyframes spin-slow { to { transform: rotate(360deg) } }
-.animate-spin-slow { animation: spin-slow 1.2s linear infinite; }
+
+@keyframes spin-slow { 
+  to { transform: rotate(360deg) } 
+}
+.animate-spin-slow { 
+  animation: spin-slow 1.2s linear infinite; 
+}
+
+/* Enhance focus states for accessibility */
+:focus-visible {
+  @apply outline-sky-500 outline-offset-2;
+}
+
+/* Improve modal backdrop for better contrast */
+.modal-backdrop {
+  backdrop-filter: blur(2px);
+}
+
+/* Fix for sticky header on iOS */
+.sticky {
+  @apply top-0;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
