@@ -1,0 +1,2175 @@
+{
+  "nodes": [
+    {
+      "id": "آباد",
+      "label": "آباد",
+      "size": 32.2552223755009,
+      "color": "#6754f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>آباد</strong><br>Sector: 55<br>weighted_degree: 2<br>degree: 0.008<br>closeness_w: 0.0078 | closeness_unw: 0.0078<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "آسیاتک",
+      "label": "آسیاتک",
+      "size": 22,
+      "color": "#54f28f",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>آسیاتک</strong><br>Sector: 73<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "آپ",
+      "label": "آپ",
+      "size": 22,
+      "color": "#bd54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>آپ</strong><br>Sector: 72<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "آینده",
+      "label": "آینده",
+      "size": 22,
+      "color": "#f25454",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>آینده</strong><br>Sector: 1<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "اخابر",
+      "label": "اخابر",
+      "size": 22,
+      "color": "#54cbf2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>اخابر</strong><br>Sector: 64<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "ارفع",
+      "label": "ارفع",
+      "size": 25.35204988813843,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>ارفع</strong><br>Sector: 27<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0050 | closeness_unw: 0.0106<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0624</div>"
+    },
+    {
+      "id": "افرا",
+      "label": "افرا",
+      "size": 22,
+      "color": "#bd54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>افرا</strong><br>Sector: 72<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "افق",
+      "label": "افق",
+      "size": 31.481028878742258,
+      "color": "#c4f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>افق</strong><br>Sector: 47<br>weighted_degree: 2<br>degree: 0.004<br>closeness_w: 0.0078 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "اوان",
+      "label": "اوان",
+      "size": 22,
+      "color": "#54f28f",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>اوان</strong><br>Sector: 73<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "اپرداز",
+      "label": "اپرداز",
+      "size": 22,
+      "color": "#54f28f",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>اپرداز</strong><br>Sector: 73<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "بترانس",
+      "label": "بترانس",
+      "size": 22,
+      "color": "#f27554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>بترانس</strong><br>Sector: 31<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "بجهرم",
+      "label": "بجهرم",
+      "size": 22,
+      "color": "#f2ca54",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>بجهرم</strong><br>Sector: 40<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "برکت",
+      "label": "برکت",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>برکت</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "بزاگرس",
+      "label": "بزاگرس",
+      "size": 22,
+      "color": "#f2ca54",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>بزاگرس</strong><br>Sector: 40<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "بشهاب",
+      "label": "بشهاب",
+      "size": 22,
+      "color": "#f27554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>بشهاب</strong><br>Sector: 31<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "بصبا",
+      "label": "بصبا",
+      "size": 22,
+      "color": "#f2ca54",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>بصبا</strong><br>Sector: 40<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "بنیرو",
+      "label": "بنیرو",
+      "size": 26.740514413556305,
+      "color": "#f27554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>بنیرو</strong><br>Sector: 31<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "بوعلی",
+      "label": "بوعلی",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>بوعلی</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "تایرا",
+      "label": "تایرا",
+      "size": 33.96370175486061,
+      "color": "#54f2a3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>تایرا</strong><br>Sector: 29<br>weighted_degree: 2<br>degree: 0.008<br>closeness_w: 0.0085 | closeness_unw: 0.0128<br>betweenness_w: 0.0002 | bet_unw: 0.0002<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "تبرک",
+      "label": "تبرک",
+      "size": 31.282802043126246,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>تبرک</strong><br>Sector: 42<br>weighted_degree: 1<br>degree: 0.012<br>closeness_w: 0.0064 | closeness_unw: 0.0125<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.2266 | eig_unw: 0.0024</div>"
+    },
+    {
+      "id": "تجار",
+      "label": "تجار",
+      "size": 22,
+      "color": "#bd54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>تجار</strong><br>Sector: 72<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "تفیرو",
+      "label": "تفیرو",
+      "size": 22,
+      "color": "#54f2a3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>تفیرو</strong><br>Sector: 29<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "تلیسه",
+      "label": "تلیسه",
+      "size": 22,
+      "color": "#f25454",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>تلیسه</strong><br>Sector: 1<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "توریل",
+      "label": "توریل",
+      "size": 22,
+      "color": "#6ff254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>توریل</strong><br>Sector: 60<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "تپکو",
+      "label": "تپکو",
+      "size": 22,
+      "color": "#54f2a3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>تپکو</strong><br>Sector: 29<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "تکمبا",
+      "label": "تکمبا",
+      "size": 25.352049888495326,
+      "color": "#54f2a3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>تکمبا</strong><br>Sector: 29<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0075 | closeness_unw: 0.0109<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "ثملی",
+      "label": "ثملی",
+      "size": 22,
+      "color": "#f2eb54",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>ثملی</strong><br>Sector: 70<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "جم",
+      "label": "جم",
+      "size": 32.24780329109199,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>جم</strong><br>Sector: 44<br>weighted_degree: 1<br>degree: 0.016<br>closeness_w: 0.0052 | closeness_unw: 0.0160<br>betweenness_w: 0.0002 | bet_unw: 0.0002<br>eigenvector_w: 0.0000 | eig_unw: 0.4974</div>"
+    },
+    {
+      "id": "حآسا",
+      "label": "حآسا",
+      "size": 22,
+      "color": "#6ff254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>حآسا</strong><br>Sector: 60<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "حآفرین",
+      "label": "حآفرین",
+      "size": 22,
+      "color": "#6ff254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>حآفرین</strong><br>Sector: 60<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "حبندر",
+      "label": "حبندر",
+      "size": 26.740514413556305,
+      "color": "#6ff254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>حبندر</strong><br>Sector: 60<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "حتاید",
+      "label": "حتاید",
+      "size": 26.740514413556305,
+      "color": "#6ff254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>حتاید</strong><br>Sector: 60<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "حتوکا",
+      "label": "حتوکا",
+      "size": 26.740514414421508,
+      "color": "#6ff254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>حتوکا</strong><br>Sector: 60<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0080 | closeness_unw: 0.0088<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "حخزر",
+      "label": "حخزر",
+      "size": 22,
+      "color": "#f2549d",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>حخزر</strong><br>Sector: 61<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "حریل",
+      "label": "حریل",
+      "size": 26.7405144135571,
+      "color": "#6ff254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>حریل</strong><br>Sector: 60<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0051 | closeness_unw: 0.0059<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "حسیر",
+      "label": "حسیر",
+      "size": 22,
+      "color": "#6ff254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>حسیر</strong><br>Sector: 60<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "حسینا",
+      "label": "حسینا",
+      "size": 22,
+      "color": "#6ff254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>حسینا</strong><br>Sector: 60<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "حفاری",
+      "label": "حفاری",
+      "size": 22,
+      "color": "#b0f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>حفاری</strong><br>Sector: 11<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خاذین",
+      "label": "خاذین",
+      "size": 22,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خاذین</strong><br>Sector: 34<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خاور",
+      "label": "خاور",
+      "size": 26.740514413836877,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خاور</strong><br>Sector: 34<br>weighted_degree: 1<br>degree: 0.008<br>closeness_w: 0.0083 | closeness_unw: 0.0132<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خبهمن",
+      "label": "خبهمن",
+      "size": 25.3524229542158,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خبهمن</strong><br>Sector: 34<br>weighted_degree: 1<br>degree: 0.008<br>closeness_w: 0.0069 | closeness_unw: 0.0137<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "ختراک",
+      "label": "ختراک",
+      "size": 34.84157634552103,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>ختراک</strong><br>Sector: 34<br>weighted_degree: 3<br>degree: 0.004<br>closeness_w: 0.0072 | closeness_unw: 0.0087<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0007 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "ختور",
+      "label": "ختور",
+      "size": 22,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>ختور</strong><br>Sector: 34<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "ختوقا",
+      "label": "ختوقا",
+      "size": 36.07851355612223,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>ختوقا</strong><br>Sector: 34<br>weighted_degree: 2<br>degree: 0.012<br>closeness_w: 0.0095 | closeness_unw: 0.0147<br>betweenness_w: 0.0004 | bet_unw: 0.0004<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خدیزل",
+      "label": "خدیزل",
+      "size": 43.81685320447525,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خدیزل</strong><br>Sector: 34<br>weighted_degree: 3<br>degree: 0.016<br>closeness_w: 0.0114 | closeness_unw: 0.0174<br>betweenness_w: 0.0005 | bet_unw: 0.0005<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خراسان",
+      "label": "خراسان",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خراسان</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خریخت",
+      "label": "خریخت",
+      "size": 26.740723896283296,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خریخت</strong><br>Sector: 34<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0084 | closeness_unw: 0.0113<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خرینگ",
+      "label": "خرینگ",
+      "size": 46.83307871612991,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خرینگ</strong><br>Sector: 34<br>weighted_degree: 3<br>degree: 0.012<br>closeness_w: 0.0108 | closeness_unw: 0.0156<br>betweenness_w: 0.0006 | bet_unw: 0.0006<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خزامیا",
+      "label": "خزامیا",
+      "size": 31.64095139846886,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خزامیا</strong><br>Sector: 34<br>weighted_degree: 2<br>degree: 0.008<br>closeness_w: 0.0067 | closeness_unw: 0.0088<br>betweenness_w: 0.0001 | bet_unw: 0.0001<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خزر",
+      "label": "خزر",
+      "size": 22,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خزر</strong><br>Sector: 34<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خساپا",
+      "label": "خساپا",
+      "size": 30.252486873050756,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خساپا</strong><br>Sector: 34<br>weighted_degree: 1<br>degree: 0.008<br>closeness_w: 0.0067 | closeness_unw: 0.0088<br>betweenness_w: 0.0001 | bet_unw: 0.0001<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خشرق",
+      "label": "خشرق",
+      "size": 22,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خشرق</strong><br>Sector: 34<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خصدرا",
+      "label": "خصدرا",
+      "size": 22,
+      "color": "#5496f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خصدرا</strong><br>Sector: 45<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خعمرا",
+      "label": "خعمرا",
+      "size": 25.3520498881807,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خعمرا</strong><br>Sector: 34<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0054 | closeness_unw: 0.0086<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خفناور",
+      "label": "خفناور",
+      "size": 22,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خفناور</strong><br>Sector: 34<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خفنر",
+      "label": "خفنر",
+      "size": 25.352049888138232,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خفنر</strong><br>Sector: 34<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0028 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خفولا",
+      "label": "خفولا",
+      "size": 25.352049888138232,
+      "color": "#f26154",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خفولا</strong><br>Sector: 74<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0028 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خلیبل",
+      "label": "خلیبل",
+      "size": 22,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خلیبل</strong><br>Sector: 34<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خمحرکه",
+      "label": "خمحرکه",
+      "size": 22,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خمحرکه</strong><br>Sector: 34<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خمحور",
+      "label": "خمحور",
+      "size": 26.740514413556305,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خمحور</strong><br>Sector: 34<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خمهر",
+      "label": "خمهر",
+      "size": 33.1416619337306,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خمهر</strong><br>Sector: 34<br>weighted_degree: 1<br>degree: 0.008<br>closeness_w: 0.0069 | closeness_unw: 0.0114<br>betweenness_w: 0.0003 | bet_unw: 0.0003<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خموتور",
+      "label": "خموتور",
+      "size": 42.451995011355535,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خموتور</strong><br>Sector: 34<br>weighted_degree: 3<br>degree: 0.008<br>closeness_w: 0.0078 | closeness_unw: 0.0120<br>betweenness_w: 0.0002 | bet_unw: 0.0002<br>eigenvector_w: 0.0007 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خنصیر",
+      "label": "خنصیر",
+      "size": 26.7405144135564,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خنصیر</strong><br>Sector: 34<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0049 | closeness_unw: 0.0059<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خودکفا",
+      "label": "خودکفا",
+      "size": 22,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خودکفا</strong><br>Sector: 42<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خوساز",
+      "label": "خوساز",
+      "size": 35.12482236681548,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خوساز</strong><br>Sector: 34<br>weighted_degree: 2<br>degree: 0.008<br>closeness_w: 0.0089 | closeness_unw: 0.0119<br>betweenness_w: 0.0003 | bet_unw: 0.0003<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خپارس",
+      "label": "خپارس",
+      "size": 25.352049888138286,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خپارس</strong><br>Sector: 34<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0044 | closeness_unw: 0.0059<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خپویش",
+      "label": "خپویش",
+      "size": 22,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خپویش</strong><br>Sector: 34<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خچرخش",
+      "label": "خچرخش",
+      "size": 26.740514413556305,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خچرخش</strong><br>Sector: 34<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خکار",
+      "label": "خکار",
+      "size": 22,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خکار</strong><br>Sector: 34<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خکاوه",
+      "label": "خکاوه",
+      "size": 22,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خکاوه</strong><br>Sector: 34<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خکمک",
+      "label": "خکمک",
+      "size": 22,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خکمک</strong><br>Sector: 34<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "خگستر",
+      "label": "خگستر",
+      "size": 42.31973850520486,
+      "color": "#90f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>خگستر</strong><br>Sector: 34<br>weighted_degree: 2<br>degree: 0.012<br>closeness_w: 0.0112 | closeness_unw: 0.0167<br>betweenness_w: 0.0006 | bet_unw: 0.0006<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دابور",
+      "label": "دابور",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دابور</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "داراب",
+      "label": "داراب",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>داراب</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دامین",
+      "label": "دامین",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دامین</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "داوه",
+      "label": "داوه",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>داوه</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دتماد",
+      "label": "دتماد",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دتماد</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "درازک",
+      "label": "درازک",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>درازک</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دروز",
+      "label": "دروز",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دروز</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دزهراوی",
+      "label": "دزهراوی",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دزهراوی</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دسبحا",
+      "label": "دسبحا",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دسبحا</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دسینا",
+      "label": "دسینا",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دسینا</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دشیری",
+      "label": "دشیری",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دشیری</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دفارا",
+      "label": "دفارا",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دفارا</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دفرا",
+      "label": "دفرا",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دفرا</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دقاضی",
+      "label": "دقاضی",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دقاضی</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دلر",
+      "label": "دلر",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دلر</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دماوند",
+      "label": "دماوند",
+      "size": 22,
+      "color": "#f2ca54",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دماوند</strong><br>Sector: 40<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دهدشت",
+      "label": "دهدشت",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دهدشت</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دکوثر",
+      "label": "دکوثر",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دکوثر</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "دکپسول",
+      "label": "دکپسول",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>دکپسول</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "رتاپ",
+      "label": "رتاپ",
+      "size": 22,
+      "color": "#bd54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>رتاپ</strong><br>Sector: 72<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "رتکو",
+      "label": "رتکو",
+      "size": 26.740514413556305,
+      "color": "#f26154",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>رتکو</strong><br>Sector: 74<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "رمپنا",
+      "label": "رمپنا",
+      "size": 22,
+      "color": "#f26154",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>رمپنا</strong><br>Sector: 74<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "رنیک",
+      "label": "رنیک",
+      "size": 22,
+      "color": "#f26154",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>رنیک</strong><br>Sector: 74<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "زاگرس",
+      "label": "زاگرس",
+      "size": 26.74051441355632,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>زاگرس</strong><br>Sector: 44<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0046 | closeness_unw: 0.0052<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "زبینا",
+      "label": "زبینا",
+      "size": 22,
+      "color": "#f25454",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>زبینا</strong><br>Sector: 1<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "زدشت",
+      "label": "زدشت",
+      "size": 22,
+      "color": "#f25454",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>زدشت</strong><br>Sector: 1<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "زشگزا",
+      "label": "زشگزا",
+      "size": 22,
+      "color": "#f25454",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>زشگزا</strong><br>Sector: 1<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "زقیام",
+      "label": "زقیام",
+      "size": 22,
+      "color": "#f25454",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>زقیام</strong><br>Sector: 1<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "زنجان",
+      "label": "زنجان",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>زنجان</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "زنگان",
+      "label": "زنگان",
+      "size": 22,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>زنگان</strong><br>Sector: 27<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "زکشت",
+      "label": "زکشت",
+      "size": 31.868125601307355,
+      "color": "#f25454",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>زکشت</strong><br>Sector: 1<br>weighted_degree: 2<br>degree: 0.008<br>closeness_w: 0.0078 | closeness_unw: 0.0078<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "زکوثر",
+      "label": "زکوثر",
+      "size": 22,
+      "color": "#f25454",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>زکوثر</strong><br>Sector: 1<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "زگلدشت",
+      "label": "زگلدشت",
+      "size": 26.74051441355715,
+      "color": "#f25454",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>زگلدشت</strong><br>Sector: 1<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0052 | closeness_unw: 0.0052<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "ساراب",
+      "label": "ساراب",
+      "size": 22,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>ساراب</strong><br>Sector: 53<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "ساروم",
+      "label": "ساروم",
+      "size": 22,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>ساروم</strong><br>Sector: 53<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "ساوه",
+      "label": "ساوه",
+      "size": 25.352049888138268,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>ساوه</strong><br>Sector: 53<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0042 | closeness_unw: 0.0106<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.1562</div>"
+    },
+    {
+      "id": "سبجنو",
+      "label": "سبجنو",
+      "size": 22,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سبجنو</strong><br>Sector: 53<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سبهان",
+      "label": "سبهان",
+      "size": 22,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سبهان</strong><br>Sector: 53<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سخزر",
+      "label": "سخزر",
+      "size": 25.352049888138232,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سخزر</strong><br>Sector: 53<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0028 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سدور",
+      "label": "سدور",
+      "size": 22,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سدور</strong><br>Sector: 53<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سرود",
+      "label": "سرود",
+      "size": 22,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سرود</strong><br>Sector: 53<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سصفها",
+      "label": "سصفها",
+      "size": 26.74051441355715,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سصفها</strong><br>Sector: 53<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0052 | closeness_unw: 0.0052<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سصوفی",
+      "label": "سصوفی",
+      "size": 22,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سصوفی</strong><br>Sector: 53<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سغرب",
+      "label": "سغرب",
+      "size": 34.43296149772307,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سغرب</strong><br>Sector: 53<br>weighted_degree: 2<br>degree: 0.012<br>closeness_w: 0.0102 | closeness_unw: 0.0160<br>betweenness_w: 0.0003 | bet_unw: 0.0003<br>eigenvector_w: 0.0002 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سفار",
+      "label": "سفار",
+      "size": 22,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سفار</strong><br>Sector: 53<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سفانو",
+      "label": "سفانو",
+      "size": 22,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سفانو</strong><br>Sector: 53<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سقاین",
+      "label": "سقاین",
+      "size": 26.740514413556305,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سقاین</strong><br>Sector: 53<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سمگا",
+      "label": "سمگا",
+      "size": 25.352049888138232,
+      "color": "#6754f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سمگا</strong><br>Sector: 55<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0028 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سنیر",
+      "label": "سنیر",
+      "size": 22,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سنیر</strong><br>Sector: 53<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سیدکو",
+      "label": "سیدکو",
+      "size": 30.866757850081655,
+      "color": "#54f2c3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سیدکو</strong><br>Sector: 53<br>weighted_degree: 2<br>degree: 0.008<br>closeness_w: 0.0065 | closeness_unw: 0.0078<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "سیستم",
+      "label": "سیستم",
+      "size": 22,
+      "color": "#bd54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>سیستم</strong><br>Sector: 72<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شاروم",
+      "label": "شاروم",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شاروم</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شاملا",
+      "label": "شاملا",
+      "size": 25.024785661018257,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شاملا</strong><br>Sector: 44<br>weighted_degree: 1<br>degree: 0.012<br>closeness_w: 0.0044 | closeness_unw: 0.0147<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.4601</div>"
+    },
+    {
+      "id": "شاوان",
+      "label": "شاوان",
+      "size": 22,
+      "color": "#f25489",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شاوان</strong><br>Sector: 23<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شبریز",
+      "label": "شبریز",
+      "size": 22,
+      "color": "#f25489",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شبریز</strong><br>Sector: 23<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شبندر",
+      "label": "شبندر",
+      "size": 25.352049888138247,
+      "color": "#f25489",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شبندر</strong><br>Sector: 23<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0041 | closeness_unw: 0.0052<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شبهرن",
+      "label": "شبهرن",
+      "size": 22,
+      "color": "#f25489",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شبهرن</strong><br>Sector: 23<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شتران",
+      "label": "شتران",
+      "size": 26.74051441355632,
+      "color": "#f25489",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شتران</strong><br>Sector: 23<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0046 | closeness_unw: 0.0052<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شجی",
+      "label": "شجی",
+      "size": 25.352049888138247,
+      "color": "#f25489",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شجی</strong><br>Sector: 23<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0041 | closeness_unw: 0.0052<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شخارک",
+      "label": "شخارک",
+      "size": 26.740514413556582,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شخارک</strong><br>Sector: 44<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0054 | closeness_unw: 0.0106<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0624</div>"
+    },
+    {
+      "id": "شدوص",
+      "label": "شدوص",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شدوص</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شراز",
+      "label": "شراز",
+      "size": 26.740514413556305,
+      "color": "#f25489",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شراز</strong><br>Sector: 23<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شرانل",
+      "label": "شرانل",
+      "size": 22,
+      "color": "#f25489",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شرانل</strong><br>Sector: 23<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شرنگی",
+      "label": "شرنگی",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شرنگی</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شستان",
+      "label": "شستان",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شستان</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شسم",
+      "label": "شسم",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شسم</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شسپا",
+      "label": "شسپا",
+      "size": 30.479661075888107,
+      "color": "#f25489",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شسپا</strong><br>Sector: 23<br>weighted_degree: 2<br>degree: 0.008<br>closeness_w: 0.0065 | closeness_unw: 0.0078<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شسینا",
+      "label": "شسینا",
+      "size": 26.740514413556305,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شسینا</strong><br>Sector: 44<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شصدف",
+      "label": "شصدف",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شصدف</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شغدیر",
+      "label": "شغدیر",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شغدیر</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شفارس",
+      "label": "شفارس",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شفارس</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شفن",
+      "label": "شفن",
+      "size": 33.21738666790538,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شفن</strong><br>Sector: 44<br>weighted_degree: 1<br>degree: 0.016<br>closeness_w: 0.0075 | closeness_unw: 0.0191<br>betweenness_w: 0.0003 | bet_unw: 0.0003<br>eigenvector_w: 0.0000 | eig_unw: 0.5075</div>"
+    },
+    {
+      "id": "شلرد",
+      "label": "شلرد",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شلرد</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شلعاب",
+      "label": "شلعاب",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شلعاب</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شنفت",
+      "label": "شنفت",
+      "size": 22,
+      "color": "#f25489",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شنفت</strong><br>Sector: 23<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شپاس",
+      "label": "شپاس",
+      "size": 35.559595702021454,
+      "color": "#f25489",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شپاس</strong><br>Sector: 23<br>weighted_degree: 2<br>degree: 0.012<br>closeness_w: 0.0065 | closeness_unw: 0.0160<br>betweenness_w: 0.0002 | bet_unw: 0.0002<br>eigenvector_w: 0.0000 | eig_unw: 0.1986</div>"
+    },
+    {
+      "id": "شپترو",
+      "label": "شپترو",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شپترو</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شپمچا",
+      "label": "شپمچا",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شپمچا</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شپنا",
+      "label": "شپنا",
+      "size": 22,
+      "color": "#f25489",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شپنا</strong><br>Sector: 23<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شکبیر",
+      "label": "شکبیر",
+      "size": 30.866757850081655,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شکبیر</strong><br>Sector: 44<br>weighted_degree: 2<br>degree: 0.008<br>closeness_w: 0.0065 | closeness_unw: 0.0078<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شکربن",
+      "label": "شکربن",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شکربن</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شگویا",
+      "label": "شگویا",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شگویا</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "شیراز",
+      "label": "شیراز",
+      "size": 26.740514413556305,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>شیراز</strong><br>Sector: 44<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "غاذر",
+      "label": "غاذر",
+      "size": 26.740514413556305,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غاذر</strong><br>Sector: 42<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "غالبر",
+      "label": "غالبر",
+      "size": 22,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غالبر</strong><br>Sector: 42<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "غبهار",
+      "label": "غبهار",
+      "size": 52.32258064516129,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غبهار</strong><br>Sector: 42<br>weighted_degree: 4<br>degree: 0.012<br>closeness_w: 0.0113 | closeness_unw: 0.0125<br>betweenness_w: 0.0001 | bet_unw: 0.0000<br>eigenvector_w: 0.6542 | eig_unw: 0.0024</div>"
+    },
+    {
+      "id": "غبهنوش",
+      "label": "غبهنوش",
+      "size": 22,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غبهنوش</strong><br>Sector: 42<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "غدیس",
+      "label": "غدیس",
+      "size": 22,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غدیس</strong><br>Sector: 42<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "غشهد",
+      "label": "غشهد",
+      "size": 26.740514413556305,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غشهد</strong><br>Sector: 42<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "غشهداب",
+      "label": "غشهداب",
+      "size": 41.65455999810975,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غشهداب</strong><br>Sector: 42<br>weighted_degree: 3<br>degree: 0.016<br>closeness_w: 0.0100 | closeness_unw: 0.0156<br>betweenness_w: 0.0001 | bet_unw: 0.0001<br>eigenvector_w: 0.3278 | eig_unw: 0.0026</div>"
+    },
+    {
+      "id": "غشوکو",
+      "label": "غشوکو",
+      "size": 22,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غشوکو</strong><br>Sector: 42<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "غصینو",
+      "label": "غصینو",
+      "size": 22,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غصینو</strong><br>Sector: 42<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "غمهرا",
+      "label": "غمهرا",
+      "size": 22,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غمهرا</strong><br>Sector: 42<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "غمینو",
+      "label": "غمینو",
+      "size": 22,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غمینو</strong><br>Sector: 42<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "غپونه",
+      "label": "غپونه",
+      "size": 47.833016143774124,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غپونه</strong><br>Sector: 42<br>weighted_degree: 4<br>degree: 0.012<br>closeness_w: 0.0095 | closeness_unw: 0.0125<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.6353 | eig_unw: 0.0024</div>"
+    },
+    {
+      "id": "غپینو",
+      "label": "غپینو",
+      "size": 27.935655644265488,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غپینو</strong><br>Sector: 42<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0067 | closeness_unw: 0.0089<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0977 | eig_unw: 0.0008</div>"
+    },
+    {
+      "id": "غپیچک",
+      "label": "غپیچک",
+      "size": 22,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غپیچک</strong><br>Sector: 42<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "غگرجی",
+      "label": "غگرجی",
+      "size": 22,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غگرجی</strong><br>Sector: 42<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "غگل",
+      "label": "غگل",
+      "size": 22,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>غگل</strong><br>Sector: 42<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فاذر",
+      "label": "فاذر",
+      "size": 22,
+      "color": "#d154f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فاذر</strong><br>Sector: 28<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فاسمین",
+      "label": "فاسمین",
+      "size": 25.352049888138247,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فاسمین</strong><br>Sector: 27<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0041 | closeness_unw: 0.0052<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فافزا",
+      "label": "فافزا",
+      "size": 26.740514414168096,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فافزا</strong><br>Sector: 27<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0074 | closeness_unw: 0.0088<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فاما",
+      "label": "فاما",
+      "size": 22,
+      "color": "#d154f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فاما</strong><br>Sector: 28<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فایرا",
+      "label": "فایرا",
+      "size": 26.740514413556305,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فایرا</strong><br>Sector: 27<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فجام",
+      "label": "فجام",
+      "size": 22,
+      "color": "#d154f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فجام</strong><br>Sector: 28<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فخاس",
+      "label": "فخاس",
+      "size": 25.352049888383917,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فخاس</strong><br>Sector: 27<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0066 | closeness_unw: 0.0089<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فخوز",
+      "label": "فخوز",
+      "size": 22,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فخوز</strong><br>Sector: 27<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فرآور",
+      "label": "فرآور",
+      "size": 26.740514413556305,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فرآور</strong><br>Sector: 27<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فروس",
+      "label": "فروس",
+      "size": 22,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فروس</strong><br>Sector: 27<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فزرین",
+      "label": "فزرین",
+      "size": 22,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فزرین</strong><br>Sector: 27<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فسرب",
+      "label": "فسرب",
+      "size": 26.740514413556305,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فسرب</strong><br>Sector: 27<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فسپا",
+      "label": "فسپا",
+      "size": 22,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فسپا</strong><br>Sector: 27<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فغدیر",
+      "label": "فغدیر",
+      "size": 31.253854624276308,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فغدیر</strong><br>Sector: 27<br>weighted_degree: 2<br>degree: 0.008<br>closeness_w: 0.0073 | closeness_unw: 0.0088<br>betweenness_w: 0.0001 | bet_unw: 0.0001<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فلوله",
+      "label": "فلوله",
+      "size": 22,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فلوله</strong><br>Sector: 27<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فماک",
+      "label": "فماک",
+      "size": 22,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فماک</strong><br>Sector: 27<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فملی",
+      "label": "فملی",
+      "size": 26.740514413556305,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فملی</strong><br>Sector: 27<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فن آوا",
+      "label": "فن آوا",
+      "size": 26.740574937472466,
+      "color": "#bd54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فن آوا</strong><br>Sector: 72<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0067 | closeness_unw: 0.0091<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فنوال",
+      "label": "فنوال",
+      "size": 22,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فنوال</strong><br>Sector: 27<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فنورد",
+      "label": "فنورد",
+      "size": 22,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فنورد</strong><br>Sector: 27<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فولاد",
+      "label": "فولاد",
+      "size": 25.352049888138232,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فولاد</strong><br>Sector: 27<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0028 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فولاژ",
+      "label": "فولاژ",
+      "size": 26.740514413556305,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فولاژ</strong><br>Sector: 27<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "فولای",
+      "label": "فولای",
+      "size": 25.352049888138232,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>فولای</strong><br>Sector: 27<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0028 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "قاسم",
+      "label": "قاسم",
+      "size": 22,
+      "color": "#c4f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>قاسم</strong><br>Sector: 47<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "قشیر",
+      "label": "قشیر",
+      "size": 22,
+      "color": "#f254be",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>قشیر</strong><br>Sector: 38<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "قصفها",
+      "label": "قصفها",
+      "size": 22,
+      "color": "#f254be",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>قصفها</strong><br>Sector: 38<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "قچار",
+      "label": "قچار",
+      "size": 22,
+      "color": "#f254be",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>قچار</strong><br>Sector: 38<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "لابسا",
+      "label": "لابسا",
+      "size": 22,
+      "color": "#54f2a3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>لابسا</strong><br>Sector: 29<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "لخانه",
+      "label": "لخانه",
+      "size": 22,
+      "color": "#54f2a3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>لخانه</strong><br>Sector: 29<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "لسرما",
+      "label": "لسرما",
+      "size": 26.74051441355715,
+      "color": "#54f2a3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>لسرما</strong><br>Sector: 29<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0052 | closeness_unw: 0.0052<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "لکما",
+      "label": "لکما",
+      "size": 22,
+      "color": "#5462f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>لکما</strong><br>Sector: 32<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "مادیران",
+      "label": "مادیران",
+      "size": 22,
+      "color": "#54f2a3",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>مادیران</strong><br>Sector: 29<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "مارون",
+      "label": "مارون",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>مارون</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "مبین",
+      "label": "مبین",
+      "size": 22,
+      "color": "#f2ca54",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>مبین</strong><br>Sector: 40<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "مداران",
+      "label": "مداران",
+      "size": 22,
+      "color": "#bd54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>مداران</strong><br>Sector: 72<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "ممسنی",
+      "label": "ممسنی",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>ممسنی</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "نتوس",
+      "label": "نتوس",
+      "size": 22,
+      "color": "#f2a954",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>نتوس</strong><br>Sector: 17<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "نیرو",
+      "label": "نیرو",
+      "size": 22,
+      "color": "#f27554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>نیرو</strong><br>Sector: 31<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "همراه",
+      "label": "همراه",
+      "size": 22,
+      "color": "#54cbf2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>همراه</strong><br>Sector: 64<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "والبر",
+      "label": "والبر",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>والبر</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "وبانک",
+      "label": "وبانک",
+      "size": 26.74051441355632,
+      "color": "#54ecf2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>وبانک</strong><br>Sector: 39<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0046 | closeness_unw: 0.0052<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "وبشهر",
+      "label": "وبشهر",
+      "size": 22,
+      "color": "#9c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>وبشهر</strong><br>Sector: 42<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "ومعادن",
+      "label": "ومعادن",
+      "size": 25.81487139661099,
+      "color": "#f254de",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>ومعادن</strong><br>Sector: 13<br>weighted_degree: 1<br>degree: 0.012<br>closeness_w: 0.0055 | closeness_unw: 0.0147<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.4601</div>"
+    },
+    {
+      "id": "وملی",
+      "label": "وملی",
+      "size": 22,
+      "color": "#7c54f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>وملی</strong><br>Sector: 19<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "ونیرو",
+      "label": "ونیرو",
+      "size": 22,
+      "color": "#f2ca54",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>ونیرو</strong><br>Sector: 40<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "وپسا",
+      "label": "وپسا",
+      "size": 22,
+      "color": "#5496f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>وپسا</strong><br>Sector: 45<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "پارس",
+      "label": "پارس",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>پارس</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "پاکشو",
+      "label": "پاکشو",
+      "size": 31.481028878742258,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>پاکشو</strong><br>Sector: 44<br>weighted_degree: 2<br>degree: 0.004<br>closeness_w: 0.0078 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "پتایر",
+      "label": "پتایر",
+      "size": 22,
+      "color": "#54b7f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>پتایر</strong><br>Sector: 25<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "پخش",
+      "label": "پخش",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>پخش</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "پدرخش",
+      "label": "پدرخش",
+      "size": 26.740514413556305,
+      "color": "#54b7f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>پدرخش</strong><br>Sector: 25<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "پسهند",
+      "label": "پسهند",
+      "size": 26.740514413556305,
+      "color": "#54b7f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>پسهند</strong><br>Sector: 25<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "پشاهن",
+      "label": "پشاهن",
+      "size": 22,
+      "color": "#54b7f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>پشاهن</strong><br>Sector: 25<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "پلاسک",
+      "label": "پلاسک",
+      "size": 22,
+      "color": "#54b7f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>پلاسک</strong><br>Sector: 25<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "چکارن",
+      "label": "چکارن",
+      "size": 22,
+      "color": "#5bf254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>چکارن</strong><br>Sector: 21<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کاذر",
+      "label": "کاذر",
+      "size": 26.740514413556305,
+      "color": "#f29554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کاذر</strong><br>Sector: 54<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کاسپین",
+      "label": "کاسپین",
+      "size": 22,
+      "color": "#54f26e",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کاسپین</strong><br>Sector: 43<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کاما",
+      "label": "کاما",
+      "size": 22,
+      "color": "#f254de",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کاما</strong><br>Sector: 13<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کاوه",
+      "label": "کاوه",
+      "size": 25.352049888138232,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کاوه</strong><br>Sector: 27<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0028 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کباده",
+      "label": "کباده",
+      "size": 25.352049888138232,
+      "color": "#f29554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کباده</strong><br>Sector: 54<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0028 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کترام",
+      "label": "کترام",
+      "size": 22,
+      "color": "#f154f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کترام</strong><br>Sector: 49<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کتوکا",
+      "label": "کتوکا",
+      "size": 34.96489979639891,
+      "color": "#f29554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کتوکا</strong><br>Sector: 54<br>weighted_degree: 2<br>degree: 0.008<br>closeness_w: 0.0111 | closeness_unw: 0.0128<br>betweenness_w: 0.0002 | bet_unw: 0.0002<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کحافظ",
+      "label": "کحافظ",
+      "size": 22,
+      "color": "#f154f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کحافظ</strong><br>Sector: 49<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کخاک",
+      "label": "کخاک",
+      "size": 26.740514413556305,
+      "color": "#f29554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کخاک</strong><br>Sector: 54<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کرازی",
+      "label": "کرازی",
+      "size": 22,
+      "color": "#f29554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کرازی</strong><br>Sector: 54<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کرماشا",
+      "label": "کرماشا",
+      "size": 22,
+      "color": "#f25468",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کرماشا</strong><br>Sector: 44<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کروی",
+      "label": "کروی",
+      "size": 25.352049888138232,
+      "color": "#f254de",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کروی</strong><br>Sector: 13<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0028 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کساپا",
+      "label": "کساپا",
+      "size": 22,
+      "color": "#f29554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کساپا</strong><br>Sector: 54<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کسعدی",
+      "label": "کسعدی",
+      "size": 22,
+      "color": "#f154f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کسعدی</strong><br>Sector: 49<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کشرق",
+      "label": "کشرق",
+      "size": 25.35204988888752,
+      "color": "#5482f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کشرق</strong><br>Sector: 10<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0084 | closeness_unw: 0.0108<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کصدف",
+      "label": "کصدف",
+      "size": 25.352049888138232,
+      "color": "#f154f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کصدف</strong><br>Sector: 49<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0028 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کطبس",
+      "label": "کطبس",
+      "size": 45.31279311212053,
+      "color": "#5482f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کطبس</strong><br>Sector: 10<br>weighted_degree: 3<br>degree: 0.016<br>closeness_w: 0.0146 | closeness_unw: 0.0176<br>betweenness_w: 0.0004 | bet_unw: 0.0004<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کفرا",
+      "label": "کفرا",
+      "size": 26.740514413556305,
+      "color": "#f29554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کفرا</strong><br>Sector: 54<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0039 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کلوند",
+      "label": "کلوند",
+      "size": 25.352049888138232,
+      "color": "#f154f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کلوند</strong><br>Sector: 49<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0028 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کماسه",
+      "label": "کماسه",
+      "size": 22,
+      "color": "#54f2d7",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کماسه</strong><br>Sector: 14<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کمنگنز",
+      "label": "کمنگنز",
+      "size": 25.35204988888752,
+      "color": "#f254de",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کمنگنز</strong><br>Sector: 13<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0084 | closeness_unw: 0.0108<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کنور",
+      "label": "کنور",
+      "size": 25.352049888138232,
+      "color": "#f254de",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کنور</strong><br>Sector: 13<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0028 | closeness_unw: 0.0039<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کنگار",
+      "label": "کنگار",
+      "size": 22,
+      "color": "#f154f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کنگار</strong><br>Sector: 49<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کپرور",
+      "label": "کپرور",
+      "size": 33.96353204472206,
+      "color": "#5482f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کپرور</strong><br>Sector: 10<br>weighted_degree: 2<br>degree: 0.008<br>closeness_w: 0.0101 | closeness_unw: 0.0128<br>betweenness_w: 0.0002 | bet_unw: 0.0002<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کپشیر",
+      "label": "کپشیر",
+      "size": 22,
+      "color": "#f29554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کپشیر</strong><br>Sector: 54<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کچاد",
+      "label": "کچاد",
+      "size": 31.253854624276308,
+      "color": "#f254de",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کچاد</strong><br>Sector: 13<br>weighted_degree: 2<br>degree: 0.008<br>closeness_w: 0.0073 | closeness_unw: 0.0088<br>betweenness_w: 0.0001 | bet_unw: 0.0001<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کگاز",
+      "label": "کگاز",
+      "size": 22,
+      "color": "#f29554",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کگاز</strong><br>Sector: 54<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کگل",
+      "label": "کگل",
+      "size": 26.7405144135571,
+      "color": "#f254de",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کگل</strong><br>Sector: 13<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0051 | closeness_unw: 0.0059<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کیسون",
+      "label": "کیسون",
+      "size": 22,
+      "color": "#f26154",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کیسون</strong><br>Sector: 74<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "کیمیا",
+      "label": "کیمیا",
+      "size": 22,
+      "color": "#e5f254",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>کیمیا</strong><br>Sector: 27<br>weighted_degree: 0<br>degree: 0.000<br>closeness_w: 0.0000 | closeness_unw: 0.0000<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    },
+    {
+      "id": "گپارس",
+      "label": "گپارس",
+      "size": 26.74051441355715,
+      "color": "#6754f2",
+      "title": "<div style=\"font-family:'Sharif 1.2', sans-serif; font-size:14px; color:#1f1f1f;\"><strong>گپارس</strong><br>Sector: 55<br>weighted_degree: 1<br>degree: 0.004<br>closeness_w: 0.0052 | closeness_unw: 0.0052<br>betweenness_w: 0.0000 | bet_unw: 0.0000<br>eigenvector_w: 0.0000 | eig_unw: 0.0000</div>"
+    }
+  ],
+  "links": [
+    {
+      "source": "آباد",
+      "target": "گپارس",
+      "weight": 1
+    },
+    {
+      "source": "آباد",
+      "target": "لسرما",
+      "weight": 1
+    },
+    {
+      "source": "ارفع",
+      "target": "شپاس",
+      "weight": 1
+    },
+    {
+      "source": "افق",
+      "target": "پاکشو",
+      "weight": 1
+    },
+    {
+      "source": "بنیرو",
+      "target": "شراز",
+      "weight": 1
+    },
+    {
+      "source": "تایرا",
+      "target": "خدیزل",
+      "weight": 1
+    },
+    {
+      "source": "تایرا",
+      "target": "فن آوا",
+      "weight": 1
+    },
+    {
+      "source": "تبرک",
+      "target": "غپونه",
+      "weight": 1
+    },
+    {
+      "source": "تبرک",
+      "target": "غشهداب",
+      "weight": 1
+    },
+    {
+      "source": "تبرک",
+      "target": "غبهار",
+      "weight": 1
+    },
+    {
+      "source": "تکمبا",
+      "target": "خرینگ",
+      "weight": 1
+    },
+    {
+      "source": "جم",
+      "target": "ساوه",
+      "weight": 1
+    },
+    {
+      "source": "جم",
+      "target": "ومعادن",
+      "weight": 1
+    },
+    {
+      "source": "جم",
+      "target": "شفن",
+      "weight": 1
+    },
+    {
+      "source": "جم",
+      "target": "شاملا",
+      "weight": 1
+    },
+    {
+      "source": "حبندر",
+      "target": "حتاید",
+      "weight": 1
+    },
+    {
+      "source": "حتوکا",
+      "target": "کتوکا",
+      "weight": 1
+    },
+    {
+      "source": "حریل",
+      "target": "کچاد",
+      "weight": 1
+    },
+    {
+      "source": "خاور",
+      "target": "ختوقا",
+      "weight": 1
+    },
+    {
+      "source": "خاور",
+      "target": "خگستر",
+      "weight": 1
+    },
+    {
+      "source": "خبهمن",
+      "target": "سغرب",
+      "weight": 1
+    },
+    {
+      "source": "خبهمن",
+      "target": "خدیزل",
+      "weight": 1
+    },
+    {
+      "source": "ختراک",
+      "target": "خموتور",
+      "weight": 1
+    },
+    {
+      "source": "ختوقا",
+      "target": "خگستر",
+      "weight": 1
+    },
+    {
+      "source": "ختوقا",
+      "target": "خمهر",
+      "weight": 1
+    },
+    {
+      "source": "خدیزل",
+      "target": "سغرب",
+      "weight": 1
+    },
+    {
+      "source": "خدیزل",
+      "target": "خریخت",
+      "weight": 1
+    },
+    {
+      "source": "خرینگ",
+      "target": "خگستر",
+      "weight": 1
+    },
+    {
+      "source": "خرینگ",
+      "target": "خوساز",
+      "weight": 1
+    },
+    {
+      "source": "خزامیا",
+      "target": "خساپا",
+      "weight": 1
+    },
+    {
+      "source": "خزامیا",
+      "target": "خنصیر",
+      "weight": 1
+    },
+    {
+      "source": "خساپا",
+      "target": "خپارس",
+      "weight": 1
+    },
+    {
+      "source": "خعمرا",
+      "target": "خمهر",
+      "weight": 1
+    },
+    {
+      "source": "خفنر",
+      "target": "سخزر",
+      "weight": 1
+    },
+    {
+      "source": "خفولا",
+      "target": "فولای",
+      "weight": 1
+    },
+    {
+      "source": "خمحور",
+      "target": "خچرخش",
+      "weight": 1
+    },
+    {
+      "source": "خموتور",
+      "target": "سغرب",
+      "weight": 1
+    },
+    {
+      "source": "خوساز",
+      "target": "فخاس",
+      "weight": 1
+    },
+    {
+      "source": "رتکو",
+      "target": "پسهند",
+      "weight": 1
+    },
+    {
+      "source": "زاگرس",
+      "target": "شکبیر",
+      "weight": 1
+    },
+    {
+      "source": "زکشت",
+      "target": "زگلدشت",
+      "weight": 1
+    },
+    {
+      "source": "زکشت",
+      "target": "سصفها",
+      "weight": 1
+    },
+    {
+      "source": "سقاین",
+      "target": "فملی",
+      "weight": 1
+    },
+    {
+      "source": "سمگا",
+      "target": "کاوه",
+      "weight": 1
+    },
+    {
+      "source": "سیدکو",
+      "target": "وبانک",
+      "weight": 1
+    },
+    {
+      "source": "سیدکو",
+      "target": "فاسمین",
+      "weight": 1
+    },
+    {
+      "source": "شاملا",
+      "target": "ومعادن",
+      "weight": 1
+    },
+    {
+      "source": "شاملا",
+      "target": "شفن",
+      "weight": 1
+    },
+    {
+      "source": "شبندر",
+      "target": "شکبیر",
+      "weight": 1
+    },
+    {
+      "source": "شتران",
+      "target": "شسپا",
+      "weight": 1
+    },
+    {
+      "source": "شجی",
+      "target": "شسپا",
+      "weight": 1
+    },
+    {
+      "source": "شخارک",
+      "target": "شپاس",
+      "weight": 1
+    },
+    {
+      "source": "شسینا",
+      "target": "فولاژ",
+      "weight": 1
+    },
+    {
+      "source": "شفن",
+      "target": "ومعادن",
+      "weight": 1
+    },
+    {
+      "source": "شفن",
+      "target": "شپاس",
+      "weight": 1
+    },
+    {
+      "source": "شیراز",
+      "target": "غشهد",
+      "weight": 1
+    },
+    {
+      "source": "غاذر",
+      "target": "پدرخش",
+      "weight": 1
+    },
+    {
+      "source": "غبهار",
+      "target": "غپونه",
+      "weight": 1
+    },
+    {
+      "source": "غبهار",
+      "target": "غشهداب",
+      "weight": 1
+    },
+    {
+      "source": "غشهداب",
+      "target": "غپونه",
+      "weight": 1
+    },
+    {
+      "source": "غشهداب",
+      "target": "غپینو",
+      "weight": 1
+    },
+    {
+      "source": "فافزا",
+      "target": "کپرور",
+      "weight": 1
+    },
+    {
+      "source": "فایرا",
+      "target": "کاذر",
+      "weight": 1
+    },
+    {
+      "source": "فرآور",
+      "target": "فسرب",
+      "weight": 1
+    },
+    {
+      "source": "فغدیر",
+      "target": "کچاد",
+      "weight": 1
+    },
+    {
+      "source": "فغدیر",
+      "target": "کگل",
+      "weight": 1
+    },
+    {
+      "source": "فولاد",
+      "target": "کروی",
+      "weight": 1
+    },
+    {
+      "source": "کباده",
+      "target": "کصدف",
+      "weight": 1
+    },
+    {
+      "source": "کتوکا",
+      "target": "کطبس",
+      "weight": 1
+    },
+    {
+      "source": "کخاک",
+      "target": "کفرا",
+      "weight": 1
+    },
+    {
+      "source": "کشرق",
+      "target": "کطبس",
+      "weight": 1
+    },
+    {
+      "source": "کطبس",
+      "target": "کمنگنز",
+      "weight": 1
+    },
+    {
+      "source": "کطبس",
+      "target": "کپرور",
+      "weight": 1
+    },
+    {
+      "source": "کلوند",
+      "target": "کنور",
+      "weight": 1
+    }
+  ]
+}

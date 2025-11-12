@@ -4,6 +4,7 @@ import {
   Mail, Linkedin, Github, ChevronUp, Sun, Moon, X
 } from 'lucide-react';
 import { motion, useScroll, useSpring, AnimatePresence } from 'framer-motion';
+import BoardNetworkGraph from './BoardNetworkGraph';  // ← Add this line
 
 /* ---------- Types ---------- */
 type Paper = {
@@ -121,7 +122,6 @@ const Modal: React.FC<ModalProps> = ({ paper, onClose }) => {
   }, [paper]);
 
   if (!paper) return null;
-
   return (
     <motion.div
       className="fixed inset-0 z-50 flex items-center justify-center p-4"
@@ -343,12 +343,11 @@ const EconomicsPortfolio: React.FC = () => {
 
     // Flip theme state
     setIsDark(prev => !prev);
-
-    // Remove transition class after animation completes
+    const ms = parseInt(getComputedStyle(root).getPropertyValue('--theme-anim-ms')) || 300;
     themeTimer.current = window.setTimeout(() => {
       root.classList.remove('theme-animating');
       themeTimer.current = null;
-    }, 400);
+    }, ms + 50);
   }, []);
 
   const scrollToSection = useCallback((e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
@@ -514,7 +513,31 @@ const EconomicsPortfolio: React.FC = () => {
       ]
     }
   ];
+    // Which years you have data for
+  const YEARS = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024] as const;
+  type YearType = typeof YEARS[number];
 
+  const [year, setYear] = React.useState<YearType>(2024);
+
+  // On first load, read ?year= from URL if valid
+  React.useEffect(() => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const yStr = params.get('year');
+      const yNum = yStr ? parseInt(yStr, 10) : NaN;
+      if (YEARS.includes(yNum as YearType)) setYear(yNum as YearType);
+    } catch { /* ignore */ }
+  }, []);
+
+  // When year changes, update ?year= in place (no scroll jump)
+  const setYearAndURL = (y: YearType) => {
+    setYear(y);
+    try {
+      const url = new URL(window.location.href);
+      url.searchParams.set('year', String(y));
+      window.history.replaceState(null, '', url.toString());
+    } catch { /* ignore */ }
+  };
   return (
     <>
       {/* Structured Data - Hidden but crawlable with correct Schema.org format */}
@@ -564,28 +587,34 @@ const EconomicsPortfolio: React.FC = () => {
         </AnimatePresence>
         
         <div className="bg-slate-50/90 dark:bg-slate-900/90 text-slate-900 dark:text-slate-100">
-          {/* Navigation */}
-          <nav className="sticky top-0 z-40 backdrop-blur bg-white/70 dark:bg-slate-900/80 border-b border-slate-200/70 dark:border-slate-800">
-            <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-              <a href="#home" onClick={(e) => scrollToSection(e, 'home')} className="text-sm font-semibold tracking-wide uppercase">Mohammad Mehdi Pakravan</a>
-              <div className="flex items-center gap-6">
-                <a href="#research" onClick={(e) => scrollToSection(e, 'research')} className="text-sm hover:text-sky-600 hidden md:block">Research</a>
-                <a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="text-sm hover:text-sky-600 hidden md:block">About</a>
-                <a href="#cv" onClick={(e) => scrollToSection(e, 'cv')} className="text-sm hover:text-sky-600 hidden md:block">CV</a>
-                <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="text-sm hover:text-sky-600 hidden md:block">Contact</a>
-                <button
-                  onClick={toggleThemeSmooth}
-                  className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800"
-                  aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
-                  title={isDark ? "Switch to light mode" : "Switch to dark mode"}
-                >
-                  <span className="inline-block">
-                    {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
-                  </span>
-                </button>
-              </div>
+        {/* Navigation */}
+        <nav className="sticky top-0 z-40 backdrop-blur bg-white/70 dark:bg-slate-900/80 border-b border-slate-200/70 dark:border-slate-800">
+          <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+            <a 
+              href="#home" 
+              onClick={(e) => scrollToSection(e, 'home')} 
+              className="text-sm font-semibold tracking-wide uppercase hover:text-sky-600 transition-colors"
+            >
+              Mohammad Mehdi Pakravan
+            </a>
+            <div className="flex items-center gap-6">
+              <a href="#research" onClick={(e) => scrollToSection(e, 'research')} className="text-sm hover:text-sky-600 transition-colors hidden md:block">Research</a>
+              <a href="#visualization" onClick={(e) => scrollToSection(e, 'visualization')} className="text-sm hover:text-sky-600 transition-colors hidden md:block">Network</a>
+              <a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="text-sm hover:text-sky-600 transition-colors hidden md:block">About</a>
+              <a href="#cv" onClick={(e) => scrollToSection(e, 'cv')} className="text-sm hover:text-sky-600 transition-colors hidden md:block">CV</a>
+              <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="text-sm hover:text-sky-600 transition-colors hidden md:block">Contact</a>
+              <button
+                onClick={() => setIsDark(!isDark)}
+                className="p-2 rounded-full transition-all duration-300 hover:bg-slate-100 dark:hover:bg-slate-800"
+                aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
+              >
+                <div className="transition-transform duration-200 hover:scale-110">
+                  {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+                </div>
+              </button>
             </div>
-          </nav>
+          </div>
+        </nav>
 
           {/* Hero */}
           <AnimatedSection id="home" className="scroll-mt-24 max-w-6xl mx-auto px-4 py-16 md:py-24">
@@ -704,6 +733,87 @@ const EconomicsPortfolio: React.FC = () => {
               </p>
             </div>
           </AnimatedSection>
+
+        {/* Network Visualization Section */}
+          <AnimatedSection
+            id="visualization"
+            className="max-w-6xl mx-auto overflow-hidden rounded-2xl ring-1 ring-slate-200 dark:ring-slate-800 px-4 py-12 md:py-16 bg-slate-50 dark:bg-slate-900/50"
+          >
+        {/* Header row: title + year selector on one line */}
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <h2 className="text-2xl md:text-3xl font-bold">
+            Board Network Visualization
+          </h2>
+
+          <div className="flex items-center gap-3">
+            <label
+              htmlFor="year"
+              className="text-sm text-slate-600 dark:text-slate-300"
+            >
+              Year
+            </label>
+            <select
+              id="year"
+              value={year}
+              onChange={(e) => setYearAndURL(Number(e.target.value) as YearType)}
+              className="text-sm rounded-lg border border-slate-300 dark:border-slate-700 bg-white/90 dark:bg-slate-900/80 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-sky-500"
+            >
+              {YEARS.map((y) => (
+                <option key={y} value={y}>
+                  {y}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
+          <div className="mt-8">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={year}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -8 }}
+                transition={{ duration: 0.25, ease: 'easeOut' }}
+              >
+                <BoardNetworkGraph
+                  dataUrl={`/data/board_network_${year}.json`}
+                  height={600}
+                  minRadius={4}
+                  maxRadius={16}
+                />
+              </motion.div>
+            </AnimatePresence>
+          </div>
+          <div className="mt-6 grid md:grid-cols-3 gap-4 text-sm">
+            <div className="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
+              <h3 className="font-semibold text-slate-900 dark:text-white mb-2">🎯 Interaction</h3>
+              <ul className="space-y-1 text-slate-600 dark:text-slate-400">
+                <li>• Drag nodes to reposition</li>
+                <li>• Scroll to zoom in/out</li>
+                <li>• Hover for firm details</li>
+                <li>• Click Reset to center</li>
+              </ul>
+            </div>
+            
+            <div className="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
+              <h3 className="font-semibold text-slate-900 dark:text-white mb-2">📊 Metrics</h3>
+              <ul className="space-y-1 text-slate-600 dark:text-slate-400">
+                <li>• Node size: Board connections</li>
+                <li>• Link thickness: Shared directors</li>
+                <li>• Colors: Firm categories</li>
+              </ul>
+            </div>
+            
+            <div className="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
+              <h3 className="font-semibold text-slate-900 dark:text-white mb-2">📈 Data Source</h3>
+              <ul className="space-y-1 text-slate-600 dark:text-slate-400">
+                <li>• Tehran Stock Exchange</li>
+                <li>• Board composition data</li>
+                <li>• Network analysis metrics</li>
+              </ul>
+            </div>
+          </div>
+        </AnimatedSection>
 
           {/* About */}
           <AnimatedSection id="about" className="scroll-mt-24 max-w-6xl mx-auto px-4 py-12 md:py-16">
