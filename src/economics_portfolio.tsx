@@ -228,12 +228,13 @@ const Modal: React.FC<ModalProps> = ({ paper, onClose }) => {
   );
 };
 
-const LoaderOverlay: React.FC<{ progress: number }> = ({ progress }) => (
+const LoaderOverlay: React.FC<{ progress: number; reduceMotion?: boolean }> = ({ progress, reduceMotion }) => (
   <motion.div
     className="fixed inset-0 z-[70] flex items-center justify-center bg-slate-50 dark:bg-slate-900"
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     exit={{ opacity: 0 }}
+    transition={{ duration: reduceMotion ? 0 : 0.25 }}
   >
     {/* Optional gradient/noise layer if you have .bg-pattern */}
     <div aria-hidden className="absolute inset-0 bg-pattern opacity-60 pointer-events-none" />
@@ -242,14 +243,21 @@ const LoaderOverlay: React.FC<{ progress: number }> = ({ progress }) => (
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -12 }}
-      transition={{ duration: 0.35, ease: 'easeOut' }}
+      transition={reduceMotion ? { duration: 0 } : { duration: 0.35, ease: 'easeOut' }}
       className="relative flex flex-col items-center gap-6 px-6"
     >
       <div className="relative w-16 h-16">
         <div className="absolute inset-0 rounded-full border-4 border-slate-200 dark:border-slate-800" />
-        <div className="absolute inset-0 rounded-full border-4 border-transparent">
-          <div className="absolute inset-0 rounded-full border-4 border-sky-500 border-t-transparent animate-spin-slow" />
-        </div>
+        {!reduceMotion && (
+          <div className="absolute inset-0 rounded-full border-4 border-transparent">
+            <div className="absolute inset-0 rounded-full border-4 border-sky-500 border-t-transparent animate-spin-slow" />
+          </div>
+        )}
+        {reduceMotion && (
+          <div className="absolute inset-0 grid place-items-center text-sm font-medium text-slate-500 dark:text-slate-300">
+            <span>{Math.round(progress)}%</span>
+          </div>
+        )}
       </div>
 
       <h1 className="text-base md:text-lg font-semibold text-slate-900 dark:text-white">
@@ -261,7 +269,7 @@ const LoaderOverlay: React.FC<{ progress: number }> = ({ progress }) => (
           className="h-full bg-gradient-to-r from-sky-400 via-cyan-400 to-emerald-400"
           initial={{ width: '0%' }}
           animate={{ width: `${Math.round(progress)}%` }}
-          transition={{ duration: 0.2, ease: 'easeOut' }}
+          transition={reduceMotion ? { duration: 0 } : { duration: 0.2, ease: 'easeOut' }}
         />
       </div>
 
@@ -287,6 +295,16 @@ const EconomicsPortfolio: React.FC = () => {
   const themeTimer = useRef<number | null>(null);
   const [progress, setProgress] = useState(0);
   const [isAppReady, setIsAppReady] = useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState<boolean>(() => {
+    try {
+      return (
+        typeof window !== 'undefined' &&
+        window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches === true
+      );
+    } catch {
+      return false;
+    }
+  });
   
   /* Theme class on <html> */
   useEffect(() => {
@@ -310,6 +328,27 @@ const EconomicsPortfolio: React.FC = () => {
       });
     }
   }, [isAppReady]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const mq = window.matchMedia?.('(prefers-reduced-motion: reduce)');
+    if (!mq) return;
+
+    const update = (matches: boolean) => setPrefersReducedMotion(matches);
+    update(mq.matches);
+
+    const listener = (event: MediaQueryListEvent) => update(event.matches);
+
+    if (typeof mq.addEventListener === 'function') {
+      mq.addEventListener('change', listener);
+      return () => mq.removeEventListener('change', listener);
+    }
+
+    if (typeof mq.addListener === 'function') {
+      mq.addListener(listener);
+      return () => mq.removeListener(listener);
+    }
+  }, []);
 
   /* Hash deep-linking */
   useEffect(() => {
@@ -377,8 +416,13 @@ const EconomicsPortfolio: React.FC = () => {
 
   /* Smooth app loader */
   useEffect(() => {
-    const reduceMotion =
-      window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches ?? false;
+    if (typeof document !== 'undefined' && document.readyState === 'complete') {
+      setProgress(100);
+      setIsAppReady(true);
+      return;
+    }
+
+    const reduceMotion = prefersReducedMotion;
 
     let interval: number | null = null;
     let onloadFired = document.readyState === 'complete';
@@ -405,7 +449,7 @@ const EconomicsPortfolio: React.FC = () => {
 
     interval = window.setInterval(() => {
       setProgress(p => Math.min(95, p + (reduceMotion ? 20 : (Math.random() * 7 + 3))));
-    }, reduceMotion ? 120 : 180);
+    }, reduceMotion ? 160 : 180);
 
     try {
       (document as any).fonts?.ready
@@ -435,7 +479,7 @@ const EconomicsPortfolio: React.FC = () => {
     }, HARD_TIMEOUT);
 
     return clearAll;
-  }, []);
+  }, [prefersReducedMotion]);
 
   /* ---------- Data ---------- */
   const papers: Paper[] = [
@@ -587,7 +631,7 @@ const EconomicsPortfolio: React.FC = () => {
         
         {/* Loader overlay */}
         <AnimatePresence initial={false} mode="wait">
-          {!isAppReady && <LoaderOverlay progress={progress} />}
+          {!isAppReady && <LoaderOverlay progress={progress} reduceMotion={prefersReducedMotion} />}
         </AnimatePresence>
         
         <div className="bg-slate-50/90 dark:bg-slate-900/90 text-slate-900 dark:text-slate-100">
@@ -660,9 +704,14 @@ const EconomicsPortfolio: React.FC = () => {
                   <div className="aspect-square rounded-2xl overflow-hidden border-2 border-slate-200 dark:border-slate-700 shadow-2xl">
                     <img
                       src="/assets/images/pic_aca_5.png"
+                      srcSet="/assets/images/pic_aca_5.png 1024w"
+                      sizes="(min-width: 768px) 340px, 60vw"
                       alt="Mohammad Mehdi Pakravan"
+                      width={1024}
+                      height={1024}
                       className="w-full h-full object-cover"
-                      loading="lazy"
+                      loading="eager"
+                      fetchPriority="high"
                       decoding="async"
                     />
                   </div>
