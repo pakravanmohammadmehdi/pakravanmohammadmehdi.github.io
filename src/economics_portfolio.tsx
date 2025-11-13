@@ -276,7 +276,10 @@ const EconomicsPortfolio: React.FC = () => {
     try {
       const stored = localStorage.getItem('theme');
       if (stored) return stored === 'dark';
-      return typeof window !== 'undefined' && window.matchMedia?.('(prefers-color-scheme: dark)').matches;
+      return (
+        typeof window !== 'undefined' &&
+        (window.matchMedia?.('(prefers-color-scheme: dark)')?.matches ?? false)
+      );
     } catch { return false; }
   });
   const [showBackTop, setShowBackTop] = useState(false);
@@ -374,7 +377,8 @@ const EconomicsPortfolio: React.FC = () => {
 
   /* Smooth app loader */
   useEffect(() => {
-    const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
+    const reduceMotion =
+      window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches ?? false;
 
     let interval: number | null = null;
     let onloadFired = document.readyState === 'complete';
